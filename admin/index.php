@@ -5,15 +5,21 @@
     </head>
     <body>
         <!-- Menu section start-->
-        <div class="Menu">
+        <div class="Menu text-center">
             <div class="wrapper">
-                 Menu Gose Here
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Admin</a></li>
+                    <li><a href="#">Category</a></li>
+                    <li><a href="#">Food</a></li>
+                    <li><a href="#">Order</a></li>
+                </ul>
             </div> 
         </div>
         <!-- Menu section End-->
 
         <!-- Main content section start-->
-        <div class="Menu">
+        <div class="main-content">
             <div class="wrapper">
                 Main content section Gose Here
             </div> 
@@ -21,7 +27,7 @@
         <!-- Main content section End-->
 
         <!-- Footer section start-->
-        <div class="Menu">
+        <div class="footer">
             <div class="wrapper">
                 <p class="text-center">2021 Pizza Shop Developed by - <a href="a"> Gamage </a></p>
             </div>   

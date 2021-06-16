@@ -13,3 +13,25 @@
 .text-center{
     text-align: center;
 }
+
+/*CSS for menu*/
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff6b81;
+}
+.menu ul li a:hover{
+    color: red;
+}
+/* CSS for Footer*/
+.footer{
+    background-color: #ff4757;
+    color: white;
+}
