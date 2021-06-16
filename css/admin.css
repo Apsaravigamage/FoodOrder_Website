@@ -4,7 +4,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 .wrapper{
-    border: 2px solid black;
     padding: 1%;
     width: 80%;
     margin: 0 auto;
@@ -13,8 +12,15 @@
 .text-center{
     text-align: center;
 }
+.clearfix{
+    float: none;
+    clear: both;
+}
 
 /*CSS for menu*/
+.menu{
+    border-bottom: 1px solid grey;
+}
 .menu ul{
     list-style-type: none;
 }
@@ -29,6 +35,20 @@
 }
 .menu ul li a:hover{
     color: red;
+}
+
+/* CSS for main-content*/
+.main-content{
+    background-color: #f1f2f6;
+    padding: 3% 0;
+}
+
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
 }
 /* CSS for Footer*/
 .footer{
